@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.navmenu {
+    height: 10vh;
+    display: flex;
+
+}
+
+.navmenu ul {
+    background-color: black;
+    height: 4rem;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-right: 20%;
+    align-content: flex-start;
+}
+
+.navmenu ul li {
+    display: flex;
+
+}
+
+
+.navmenu ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin: 18px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.navmenu ul li a:hover {
+    display: flex;
+    color: green;
+    text-decoration: none;
+    margin: 18px
+}
+
+
+.container-imgCOT {
+    display: flex;
+    position: fixed;
+    top: 15px;
+    margin-left: -1000px;
+
+}
+
+#home {
+    margin-left: 650px;
+    margin-top: 1.5rem;
+}
+
+.ultimo {
+    border-left: 1px white dashed;
+    padding-left: 1.8rem;
+    position: relative;
+    height: 2.5rem;
+    bottom: 0.5rem;
+    overflow: hidden;
+    top: -7px;
+}
+
+.area-restrita {
+    margin-top: 0px;
+}
+
+.container-img-Carrousell {
+    display: flex;
+    /* height: 600px; */
+    justify-content: center;
+    margin-top: -34px;
+    z-index: -1;
+    width: 100%;
+}
+
+.container-img-Carrousell img {
+    width: 100%;
+    z-index: -3;
+}
+
+.container {
+    z-index: 1000;
+    color: aliceblue;
+    position: relative;
+    top: -23rem;
+    right: -23rem;
+    width: 100%;
+}
+
+.container h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+}
+
+.container p {
+    font-family: 'Lato', sans-serif;
+    margin: 1em 0 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.banner_call {
+    background-color: #45b80b;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    top: -18rem;
+    right: -23rem;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+header {
+    width: 100%;
+}
+
+.choose-course {
+    overflow: hidden;
+    padding: 0;
+    margin-top: -65px;
+    text-align: center;
+}
+
+.choose-course h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #111;
+}
+
+.choose-course p {
+    font-weight: 900;
+    text-align: center;
+    line-height: 35px;
+    color: #424242;
+    padding: 0 4em;
+}
