@@ -3,6 +3,7 @@
     padding: 0;
     justify-content: center;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -176,8 +177,179 @@ header {
 
 }
 
-#imagens-flexitem1{
-    display: flex;
+#images-flex-items {
+  display: flex;
+  position: absolute;
+  left: 310px;
+  top: 700px;
 }
+
+.imagens-espec {
+  margin: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#CT {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 10;
+  position: relative;
+  bottom: 80px;
+  left: 25px;
+}
+
+#ensino-tecnico{
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  left: 80px;
+}
+
+#ens-T {
+  border-radius: 10px;
+  position: relative;
+  left: 20px;
+  top: -35px;
+}
+
+#school-refG {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 140px;
+  left: 90px;
+}
+
+#referenceGoogle{
+  border-radius: 10px;
+  position: relative;
+  bottom: 175px;
+  left: 20px;
+}
+
+.graduacoes {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 10;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+
+}
+.information-sistem {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 25px;
+  left: 65px;
+}
+
+.img-information-sistem {
+  border-radius: 10px;
+  position: relative;
+  bottom: 55px;
+  left: 10px;
+}
+
+.Análise {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
+  left: 65px;
+}
+
+#img-Analise {
+  border-radius: 10px;
+  position: relative;
+  top: -75px;
+  left: 10px;
+}
+
+#cience-computing{
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 50px;
+  left: 65px;
+}
+
+#img-cience-computing {
+  border-radius: 10px;
+  position: relative;
+  bottom: 80px;
+  left: 10px;
+}
+
+#p-graduations {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 10;
+  position: relative;
+  bottom: 55px;
+  left: 20px;
+}
+#pós-DSDB {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 25px;
+  left: 65px;
+}
+#imgPOSDSDB {
+  border-radius: 10px;
+  position: relative;
+  bottom: 60px;
+  left: 10px;
+}
+
+#pos-fullstackmobile{
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 45px;
+  left: 65px;
+}
+
+#img-fullstackmobile {
+  border-radius: 10px;
+  position: relative;
+  top: -90px;
+  left: 10px;
+}
+
+#cursosMCD {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 15;
+  position: relative;
+  bottom: 90px;
+  left: 14px;
+}
+
+.C-Auto {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  bottom: 35px;
+  left: 70px;
+}
+
+#imgC-Auto{
+  border-radius: 10px;
+  position: relative;
+  font-size: 14px;
+  font-weight: 900;
+  z-index: 10;
+  bottom: 70px;
+  left: 20px;
+}
+
+
 
 
