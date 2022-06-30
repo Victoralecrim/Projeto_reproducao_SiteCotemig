@@ -3,7 +3,7 @@
     padding: 0;
     justify-content: center;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato' sans-serif;
 }
 
 body {
@@ -87,55 +87,68 @@ body {
     margin-top: 0px;
 }
 
-.container-img-Carrousell {
-    display: flex;
-    /* height: 600px; */
-    justify-content: center;
-    margin-top: -34px;
-    z-index: -1;
-    width: 100%;
+.banner{
+    z-index: 0;
+    position: relative;
 }
 
-.container-img-Carrousell img {
+.banner-image{
     width: 100%;
-    z-index: -3;
+    position: relative;
+    z-index: 0;
+    height: 500px;
 }
 
-.container {
-    z-index: 1000;
+.container-banner{
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
     color: aliceblue;
-    position: relative;
-    top: -450px;
-    left: 200px;
 }
 
-.container h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 38px;
-    margin-left: 180px;
-    line-height: 100px;
+
+.container-banner span{
+    text-transform: uppercase;
 }
 
-.container p {
-    font-family: 'Lato', sans-serif;
+.banner-title{
+    width: 100%;
+    font-size:  2.375rem;
+    font-weight: 800;
+}
+
+.banner-text{
+    width:  100%;
     font-size: 18px;
-    line-height: 10px;
-    margin-left: 200px;
+    line-height: 26px;
+    margin: 1em 0 0;
 }
 
-.banner_call {
+.btn-banner {
+    width: 100%;
     background-color: #45b80b;
-    color: white;
-    border-radius: 10px;
-    text-decoration: none;
-    position: relative;
-    top: -400px;
-    right: -390px;
-    padding-right: 65px;
-    padding-left: 65px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 1em 5em;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    font-size: 0.875em;
+    margin: 2em 0 0;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
 
+.btn-banner:active {
+    background-color: #53d313;
+}
+
+.btn-banner:hover {
+    background-color: #53d313;
 }
 
 header {
@@ -145,7 +158,7 @@ header {
 .choose-course {
     overflow: hidden;
     padding: 0;
-    margin-top: -90px;
+    margin-top: 80px;
     text-align: center;
 }
 
@@ -177,179 +190,9 @@ header {
 
 }
 
-#images-flex-items {
-  display: flex;
-  position: absolute;
-  left: 310px;
-  top: 700px;
+#imagens-flexitem1{
+    display: flex;
+    align-items: center;
 }
-
-.imagens-espec {
-  margin: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-#CT {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 900;
-  z-index: 10;
-  position: relative;
-  bottom: 80px;
-  left: 25px;
-}
-
-#ensino-tecnico{
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  left: 80px;
-}
-
-#ens-T {
-  border-radius: 10px;
-  position: relative;
-  left: 20px;
-  top: -35px;
-}
-
-#school-refG {
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 140px;
-  left: 90px;
-}
-
-#referenceGoogle{
-  border-radius: 10px;
-  position: relative;
-  bottom: 175px;
-  left: 20px;
-}
-
-.graduacoes {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 900;
-  z-index: 10;
-  position: relative;
-  bottom: 60px;
-  left: 20px;
-
-}
-.information-sistem {
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 25px;
-  left: 65px;
-}
-
-.img-information-sistem {
-  border-radius: 10px;
-  position: relative;
-  bottom: 55px;
-  left: 10px;
-}
-
-.Análise {
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 40px;
-  left: 65px;
-}
-
-#img-Analise {
-  border-radius: 10px;
-  position: relative;
-  top: -75px;
-  left: 10px;
-}
-
-#cience-computing{
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 50px;
-  left: 65px;
-}
-
-#img-cience-computing {
-  border-radius: 10px;
-  position: relative;
-  bottom: 80px;
-  left: 10px;
-}
-
-#p-graduations {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 900;
-  z-index: 10;
-  position: relative;
-  bottom: 55px;
-  left: 20px;
-}
-#pós-DSDB {
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 25px;
-  left: 65px;
-}
-#imgPOSDSDB {
-  border-radius: 10px;
-  position: relative;
-  bottom: 60px;
-  left: 10px;
-}
-
-#pos-fullstackmobile{
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 45px;
-  left: 65px;
-}
-
-#img-fullstackmobile {
-  border-radius: 10px;
-  position: relative;
-  top: -90px;
-  left: 10px;
-}
-
-#cursosMCD {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 900;
-  z-index: 15;
-  position: relative;
-  bottom: 90px;
-  left: 14px;
-}
-
-.C-Auto {
-  font-size: 14px;
-  font-weight: bold;
-  position: relative;
-  bottom: 35px;
-  left: 70px;
-}
-
-#imgC-Auto{
-  border-radius: 10px;
-  position: relative;
-  font-size: 14px;
-  font-weight: 900;
-  z-index: 10;
-  bottom: 70px;
-  left: 20px;
-}
-
-
 
 
