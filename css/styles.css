@@ -747,7 +747,7 @@ hr {
   margin: 1.25em 0;
 }
 
-.rodapé-logo {
+.logo-rodapé {
   padding: 1.5625em;
   border-top: 1px solid #2e2e2e;
   grid-area: logo;
@@ -768,20 +768,20 @@ hr {
   font-size: 11px;
 }
 
-.rodapé-logo img {
+.logo-rodapé img {
   width: 7.1875em;
   height: 4.3em;
   margin: 0 1.55em 1.25em;
 }
 
-.rodapé-logo {
+.logo-rodapé {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.rodapé-logo p {
+.logo-rodapé p {
   font-size: .75em;
 }
 
